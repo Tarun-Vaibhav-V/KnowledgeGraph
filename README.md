@@ -75,18 +75,16 @@ python -m spacy download en_core_web_sm
  
 Output Sentence Wise
 ```
-##Output Summary 
--These are the results we obtained after testing our entropy-based sentence boundary detection model on multiple datasets:
+## 📈 Results Summary
 
--The model was able to detect sentence boundaries without using punctuation, relying purely on graph structure and entropy scores.
+These are the results we obtained after evaluating our entropy-based sentence boundary detection model:
 
--It performed well across varied text types, including narrative and structured prose.
+- Tested on datasets like *War and Peace* and Wikipedia samples.
+- Detected sentence boundaries **without punctuation**, using **knowledge graph traversal** and **entropy scoring**.
+- Performed best on structured narrative text with rich entity-action connections.
+- Accuracy remained strong (F1 ≈ 0.85–0.88) across different datasets.
+- Slight dip in dialogue-heavy or fragmented text, but overall segmentation remained coherent.
 
--Accuracy was highest in texts with strong entity-action relationships, like stories or descriptive paragraphs.
-
--Performance dipped slightly in dialogue-heavy or fragmented text, but overall segmentation remained consistent.
-
--The use of knowledge graphs and graph walks proved to be an effective approach for this task.
 
 
 

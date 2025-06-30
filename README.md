@@ -69,4 +69,9 @@ python -m spacy download en_core_web_sm
  Precision: 0.72
  F1-Score:  0.84
  
+Output Sentence Wise
+![Screenshot_2025-06-30_154143 1](https://github.com/user-attachments/assets/6c14044e-cff9-432d-8ee6-80d9827a51b3)
+![Screenshot_2025-06-30_154050 1](https://github.com/user-attachments/assets/921baa93-6d73-4cbf-8a96-123bb7daeb76)
+![Screenshot_2025-06-30_154001 1](https://github.com/user-attachments/assets/b269319b-e980-4a5a-aa3e-8d3299ac056c)
+
 

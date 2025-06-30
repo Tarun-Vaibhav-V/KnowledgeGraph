@@ -78,7 +78,7 @@ Output Sentence Wise
 ![alt text](https://github.com/Tarun-Vaibhav-V/KnowledgeGraph/blob/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20151558.png?raw=true)
 
 
-## 📈 Results Summary
+## 📈 Summary
 
 These are the results we obtained after evaluating our entropy-based sentence boundary detection model:
 

@@ -76,7 +76,7 @@ python -m spacy download en_core_web_sm
 Output Sentence Wise
 ```
 ##Output Summary 
-These are the results we obtained after testing our entropy-based sentence boundary detection model on multiple datasets:
+-These are the results we obtained after testing our entropy-based sentence boundary detection model on multiple datasets:
 
 -The model was able to detect sentence boundaries without using punctuation, relying purely on graph structure and entropy scores.
 

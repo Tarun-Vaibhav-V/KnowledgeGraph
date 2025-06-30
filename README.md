@@ -31,5 +31,42 @@ This project processes the novel *War and Peace* to:
 
 ---
 
-## 📂 Project Structure
+## Installation Guide
+pip install spacy networkx node2vec torch transformers requests beautifulsoup4
+python -m spacy download en_core_web_sm
+
+
+---
+
+## 📌 Key Components
+
+### 1. 📥 Data Collection
+- Downloads *War and Peace* from Project Gutenberg.
+- Cleans and truncates the text for demo purposes.
+
+### 2. 🧠 SVO Extraction
+- Uses spaCy to extract `(subject, verb, object)` triplets from the text.
+
+### 3. 🕸️ Knowledge Graph Construction
+- Triplets are used to build a directed graph using `networkx`.
+
+### 4. 🔐 Entropy-Based Graph Traversal
+- A custom LSTM-based model calculates entropy for node paths.
+- Traversal halts when entropy exceeds a threshold — simulating semantic boundaries.
+
+### 5. 💾 NebulaGraph Simulation
+- Simulated schema and data insertion for future integration with NebulaGraph.
+
+### 6. 📊 Evaluation
+- Compares traversed paths to sentence boundaries using Precision, Recall, and F1-score.
+
+---
+
+## 🧪 Output
+
+```text
+📊 Evaluation Results:
+ Precision: 0.72
+ F1-Score:  0.84
+ 
 

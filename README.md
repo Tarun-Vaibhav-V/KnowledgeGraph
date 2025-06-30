@@ -64,6 +64,8 @@ python -m spacy download en_core_web_sm
 
 ## 🧪 Output
 ![alt text]https://raw.githubusercontent.com/Tarun-Vaibhav-V/KnowledgeGraph/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20151558.png
+
+
 ```text
 📊 Evaluation Results:
  Precision: 0.72

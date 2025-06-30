@@ -63,10 +63,6 @@ python -m spacy download en_core_web_sm
 ---
 
 ## 🧪 Output
-![alt text](https://raw.githubusercontent.com/Tarun-Vaibhav-V/KnowledgeGraph/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20151558.png)
-![alt text](https://raw.githubusercontent.com/Tarun-Vaibhav-V/KnowledgeGraph/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20153832.png)
-![alt text](https://github.com/Tarun-Vaibhav-V/KnowledgeGraph/blob/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20153625.png?raw=true)
-![alt text](https://github.com/Tarun-Vaibhav-V/KnowledgeGraph/blob/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20151558.png?raw=true)
 
 ```text
 📊 Evaluation Results:
@@ -75,6 +71,13 @@ python -m spacy download en_core_web_sm
  
 Output Sentence Wise
 ```
+
+![alt text](https://raw.githubusercontent.com/Tarun-Vaibhav-V/KnowledgeGraph/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20151558.png)
+![alt text](https://raw.githubusercontent.com/Tarun-Vaibhav-V/KnowledgeGraph/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20153832.png)
+![alt text](https://github.com/Tarun-Vaibhav-V/KnowledgeGraph/blob/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20153625.png?raw=true)
+![alt text](https://github.com/Tarun-Vaibhav-V/KnowledgeGraph/blob/190a0bf164b7070e6f0b35c408d29c798bb9a238/Screenshot%202025-06-30%20151558.png?raw=true)
+
+
 ## 📈 Results Summary
 
 These are the results we obtained after evaluating our entropy-based sentence boundary detection model:

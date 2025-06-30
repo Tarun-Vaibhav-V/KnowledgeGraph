@@ -74,7 +74,7 @@ python -m spacy download en_core_web_sm
  F1-Score:  0.84
  
 Output Sentence Wise
-'''
+```
 ##Output Summary 
 These are the results we obtained after testing our entropy-based sentence boundary detection model on multiple datasets:
 
